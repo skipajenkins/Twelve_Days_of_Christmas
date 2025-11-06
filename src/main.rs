@@ -128,8 +128,7 @@ fn twelve_days_of_christmas(){
          println!("{},",_gift[index-6]);
          println!("{},",_gift[index-7]);
          println!("{},",_gift[index-8]);
-         println!("{}.",_gift[index-9]);
-         println!("{}.",_gift[index-10]);
+         println!("{}.",_gift[index-9]); println!("{}.",_gift[index-10]);
          println!("and {}.",_gift[index-11]);
         }
 
@@ -138,6 +137,25 @@ fn twelve_days_of_christmas(){
         }
 
         index +=1;
+    
+    //CHATGPT'S VERSION
+    //     while index < 12 {
+    //     println!("On the {} day of Christmas, my true love gave to me", _days[index]);
+        
+    //     // Print gifts in reverse order up to the current day
+    //     let mut gift_index = index + 1;
+    //     while gift_index > 0 {
+    //         gift_index -= 1;
+    //         if index != 0 && gift_index == 0 {
+    //             println!("and {}.", _gift[gift_index]);
+    //         } else {
+    //             println!("{},", _gift[gift_index]);
+    //         }
+    //     }
+
+    //     println!();
+    //     index += 1;
+    // }
 
        // println!("Index: {index}")
     }
